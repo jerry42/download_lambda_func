@@ -1,0 +1,19 @@
+{
+  "name": "download_lambda_func",
+  "version": "1.0.0",
+  "description": "Download all your lambda functions",
+  "main": "download_lambda_func.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerry42/download_lambda_func.git"
+  },
+  "author": "Jeremy SCULFORT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerry42/download_lambda_func/issues"
+  },
+  "homepage": "https://github.com/jerry42/download_lambda_func#readme"
+}
