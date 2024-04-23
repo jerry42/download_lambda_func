@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jerry42/download_lambda_func/issues"
   },
-  "homepage": "https://github.com/jerry42/download_lambda_func#readme"
+  "homepage": "https://github.com/jerry42/download_lambda_func#readme",
+  "dependencies": {
+    "adm-zip": "^0.5.12",
+    "shelljs": "^0.8.5"
+  }
 }

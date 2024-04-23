@@ -31,7 +31,7 @@ for (let i = 0; i < funcList.length; i++) {
 	let cmdGetFunc = `aws lambda get-function --function-name "${funcList[i]}"`;
 	let funcData = JSON.parse(shell.exec(cmdGetFunc, { silent: true }));
 	console.log(`Downloading function ${funcList[i]} ${i + 1} / ${funcList.length}...`);
-	let cmdWget = `curl -o ${directory}/${funcList[i]}_lambda.zip "${funcData.Code.Location}"`;
+	let cmdWget = `curl --output ${directory}/${funcList[i]}_lambda.zip "${funcData.Code.Location}"`;
 	shell.exec(cmdWget, { silent: true });
 }
 
